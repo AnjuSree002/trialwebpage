@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* title */
+#title .container-fluid {
+    padding:2% 15%;
+      text-align: left;
+}
+.container-fluid {
+  /* padding: 2% 15% 5%; */
+  padding:7% 15%;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+}
+
+.download-button {
+  margin : 3rem 2rem 0 0;
+}
+
+.image {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* Sections */
+
+.coloured-section{
+  background-color: #f44c68;
+  color: white;
+}
+
+
+p {
+  color: grey;
+}
+
+.icon {
+  color: #f44c68;
+  padding-bottom: 9%;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+/* heading */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+h1 {
+
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+
+}
+
+h3 {
+font-family: 'Lemonada', cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#features {
+    background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+
+  background-color:#ef8172;
+  padding: 7% 20%;
+}
+
+
+.testimonial-text {
+  font-family: 'Sriracha', cursive;
+  font-weight: 900;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+.testimonial-image {
+  margin: 5%;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+.cardarea {
+  padding:2rem;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+background-color: #f44c68;
+padding:7% 30%;
+
+}
+
+.cta-header {
+font-family: 'El Messiri', sans-serif;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.cta-button{
+  margin: 3% 2%;
+}
+
+#footer {
+  background-color: white;
+  padding: 3% 10%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1170px) {
+  .image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 7%;
+  }
+  #title {
+    text-align: center;
+  }
+}
